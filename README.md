@@ -1,11 +1,11 @@
-https://recipe-vault-nh7j.vercel.app/
+
 
 
 # 🍽️ Recipe Vault
 
 A premium, aesthetic Single Page Application (SPA) designed as a digital culinary archive. Built with a focus on fluid animations, modern glassmorphism, and a seamless, distraction-free user experience. 
 
-**[Live Demo](https://recipe-vault.vercel.app/)** *(Replace this with your actual Vercel link once deployed)*
+**[Live Demo](https://recipe-vault-nh7j.vercel.app/)** *(Replace this with your actual Vercel link once deployed)*
 
 ---
 
