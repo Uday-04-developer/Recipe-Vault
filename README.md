@@ -1,16 +1,54 @@
-# React + Vite
+https://recipe-vault-nh7j.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🍽️ Recipe Vault
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A premium, aesthetic Single Page Application (SPA) designed as a digital culinary archive. Built with a focus on fluid animations, modern glassmorphism, and a seamless, distraction-free user experience. 
 
-## React Compiler
+**[Live Demo](https://recipe-vault.vercel.app/)** *(Replace this with your actual Vercel link once deployed)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Premium UI/UX:** A deep, dark-mode aesthetic utilizing glassmorphism (`backdrop-blur`) and custom CSS variable theming.
+* **Advanced Animations:** * 3D magnetic hover effects on recipe cards (`Framer Motion`).
+  * Fluid WebGL splash cursor interactions.
+  * Custom staggered text splitting for dynamic typography (`GSAP`).
+  * Shimmering gradient text and animated card borders.
+* **Smart Persistence:** Completely serverless frontend architecture utilizing the React Context API synchronized with `LocalStorage`. Features auto-saving so you never lose a recipe.
+* **Full CRUD Functionality:** Browse, create, edit, and delete your culinary creations with instant UI feedback.
+* **Favorites System:** Curate your personal cookbook by saving your most-loved recipes to a dedicated, animated vault.
+* **Zero Empty States:** Intelligently injects beautiful sample data for first-time visitors to instantly showcase the application's capabilities.
+
+---
+
+## 🛠️ Tech Stack
+
+**Core Frameworks**
+* React.js (Bootstrapped with Vite)
+* React Router DOM v6 (Client-side routing)
+
+**Styling & UI**
+* Tailwind CSS **v4** (Utility-first, config-free modern implementation)
+* Lucide React / Remix Icons
+
+**State & Logic**
+* React Context API
+* LocalStorage API
+* React Hook Form
+* React Toastify (Notifications)
+
+**Animation Libraries**
+* Framer Motion (Layout animations, magnetic pulls, tilt effects)
+* GSAP (GreenSock) (Text splitting, scroll-triggered reveals)
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally on your machine:
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/Uday-04-developer/recipe-vault.git](https://github.com/Uday-04-developer/recipe-vault.git)
